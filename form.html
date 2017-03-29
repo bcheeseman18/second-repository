@@ -7,48 +7,63 @@
 <div class="border">  
     <div>
         <ul>
-            <li>Name<br>
-                <input type="text" name="name" value="What is your full name?">
+            <li>
+                <p>Name</p>
+                <input type="text" name="name" placeholder="What is your full name?">
             </li>
-            <li>Company<br>
-                   <input type="text" name="company" value="Where do you currently work?"> 
-            </li>
-        </ul>
-    </div>
-
-    <div>
-        <ul>
-            <li>Phone Number<br>
-                <input type="text" name="phonenumber" value="What is your phone number?">
-            </li>
-            <li>Email<br>
-                <input type="text" name="email" value="What is your e-mail address?">
-            </li>
-            <li>Availability<br>
-                <input type="text" name="availability" value="5-15 hrs per week?">
+            <li>
+                <p>Company</p>
+                   <input type="text" name="company" placeholder="Where do you currently work?"> 
             </li>
         </ul>
     </div>
 
     <div>
         <ul>
-            <li>Skills<br>
-                <input type="text" name="skills" value="List a few of your primary skills?">
+            <li>
+                <p>Phone Number</p>
+                <input type="text" name="phonenumber" placeholder="What is your phone number?">
             </li>
-            <li>YRS Experience<br>
-                <input type="text" name="yrsexperience" value="How many years of experience?">
+            <li>
+                <p>Email</p>
+                <input type="text" name="email" placeholder="What is your e-mail address?">
             </li>
-            <li>Favorite Color<br>
-                <input type="text" name="favoritecolor" value="What is your favorite color, above all others?">
+            <li>
+                <p>Availability</p>
+                <div class="dropdown">
+                    <select>
+                        <option>5-15 hrs per week</option>
+                        <option>15-25 hrs per week</option>
+                        <option>25-40 hrs per week</option>
+                    </select>
+                </div>
             </li>
-            <li>Programming Language of Choice<br>
-                <input type="text" name="programminglanguageofchoice" value="I know, tough question">
+        </ul>
+    </div>
+
+    <div>
+        <ul>
+            <li>
+                <p>Skills</p>
+                <input type="text" name="skills" placeholder="List a few of your primary skills?">
+            </li>
+            <li>
+                <p>YRS Experience</p>
+                <input type="text" name="yrsexperience" placeholder="How many years of experience?">
+            </li>
+            <li>
+                <p>Favorite Color</p>
+                <input type="text" name="favoritecolor" placeholder="What is your favorite color, above all others?">
+            </li>
+            <li>
+                <p>Programming Language of Choice</p>
+                <input type="text" name="programminglanguageofchoice" placeholder="I know, tough question">
             </li>
         </ul>
     </div>
 
     <div id="submitBtn">
-         <input type="submit" style="margin-left: 500px" value="Submit Form">
+         <input type="submit" value="Submit Form">
     </div>
 
 </div>
