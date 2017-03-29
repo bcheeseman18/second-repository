@@ -25,22 +25,48 @@ li {
     padding: 8px;
 }
 
+li p {
+    
+    margin: 5px;
+    color:dimgray;
+}
+
 input {
     border: 0;
     width: 100%;
     color: lightgray;
+    margin: 5px;
 }
+
 
 #submitBtn input{
     background-color: darkgreen;
     color: lightgray;
-    padding: 7px 28px;
+    /*
     width: 350px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
+    margin: 20px;
+    */
+
+    display: block;
+    width: 350px;
+    /* 0 on top and bottom, split left and right evenly */
+    margin: 20px auto;
+    padding: 7px 28px;
+    text-decoration: none;
     font-size: 16px;
     border-radius: 4px;
-    margin: 20px;
     font-size: .7em;
+}
+
+.dropdown select {
+    background:transparent;
+    width: 297px;
+    padding: 0;
+    font-size: .7em;
+    color:dimgray;
+    margin: 5px;
+    border: 0;
+    border-radius: 0;
 }
