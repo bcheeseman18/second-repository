@@ -1,0 +1,5 @@
+li {
+   display: inline-block;
+   border: 1px solid gray;
+   box-sizing: border-box;
+}
